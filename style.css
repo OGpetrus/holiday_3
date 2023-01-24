@@ -1,0 +1,126 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+input{
+    border: 0;
+}
+body{
+    padding: 1em;
+    background-color: whitesmoke;
+    white-space: nowrap;
+}
+/* utilities */
+/* .container{
+    padding: 1em 2em;
+    background-color: whitesmoke;
+    white-space: nowrap;
+} */
+header{
+    text-align: center;
+    line-height: 2em;
+    text-transform: capitalize;
+}
+.head{
+    background-color: rgb(226, 43, 43);
+    width: 20%;
+    margin: 0% auto;
+    color: #fff;
+    border: 1px solid transparent;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 2em;
+    margin-top: 2em;
+}
+.fm1 input{
+     border-bottom: 1px solid rgb(206, 192, 192);
+     outline: none;
+     font-size: 1.5rem;
+}
+.fm{
+    line-height: 5em;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px;
+    border-radius: .5em;
+    justify-content: center;
+}
+.fmm{
+    line-height: 3em;
+    background-color: rgb(90, 49, 167);
+    box-shadow: 10px 10px 15px;
+    border-radius: .5em;
+    justify-content: center;
+    color: #fff;
+    line-height: 5em;
+}
+.fmm input{
+    background-color: transparent;
+}
+.form{
+    margin-left: 3em;
+    font-size: 1.5rem;
+}
+.hb{
+    color:rgb(10, 138, 138);
+}
+.form h2{
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    padding: 1em 2em;
+    border: none;
+    background-color:rgb(10, 138, 138); 
+    color: #fff;
+}
+.btn1{
+    margin-left: 40%;
+}
+.btn2{
+   border: 1px solid #fff; 
+   background-color:transparent ;
+}
+.btnbg{
+    width: 100%;
+}
+.vlet{
+    background-color: blueviolet;
+    color: #fff;
+    box-shadow: 10px 10px 15px;
+    font-size: 2rem;
+      border-radius: .5em; 
+}
+.ff{
+     background-color: #fff;
+    color: rgb(151, 18, 18);
+    box-shadow: 10px 10px 15px;
+      font-size: 2rem;
+      border-radius: .5em; 
+}
+@media(max-width:760px){
+    .head{
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    
+    main{
+        grid-template-columns: 5fr;     
+
+    }
+     
+        .form{
+            margin:auto;
+            padding: 1em 2em;
+        }
+        .aside{
+            grid-row: 2;
+        }
+        .fm{
+            grid-row: 3;
+        }
+    } 
